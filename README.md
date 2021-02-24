@@ -1,4 +1,4 @@
-# ProyectoLDM_SCUM
+# OCTA Solutions
 Proyecto Creado por :
  Jose M Muñoz
  Pablo Serna
