@@ -6,9 +6,10 @@ html,body, body * {
     padding:0;
     color:inherit;
     background-color:inherit;
+
  }
  body {
-    background-image: url(pic1.jpg);
+    background-image: url(../img/Mojave\ Night-logon.png);
     background-size:  cover;
     background-position:center center;
     
@@ -18,6 +19,11 @@ html,body, body * {
       padding-top: 60px;
       padding-bottom: 100px;
   }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
 
   .login-register {
       height: 560px;
@@ -28,7 +34,7 @@ html,body, body * {
       border-radius: 5px;
       box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
       overflow: hidden; 
-      background: linear-gradient(180deg, rgba(65,4,119,1) 0%, rgba(22,147,198,1) 58%, rgba(255,255,255,0.1407913507199755) 82%);
+      background: linear-gradient(180deg, rgb(43, 43, 43) 0%, rgba(94, 94, 94, 0.747) 58%, rgba(255, 255, 255, 0.141) 82%);
       color:#ffffff;
   }
 
@@ -52,7 +58,7 @@ html,body, body * {
   }
   button.active {
       padding-bottom: 10px;
-      border-bottom: solid 2px #1059FF;
+      border-bottom: solid 2px rgb(0, 23, 53);
   } 
   /* footer: forgot section */
    #forgot {
@@ -91,9 +97,10 @@ html,body, body * {
         border: none;
         border-radius: 20px;
         margin-top: 23px;
-        background-color: rgba(16,89,255, 1);
+        background-color: rgb(0, 23, 53);
     
     }
+
 
     /* form positioning and animation */
     form, #forgot { 
