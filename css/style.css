@@ -14,7 +14,7 @@ body {
 
 nav {
   background-color:rgb(156, 156, 156);
-  width: 125%;
+  width: 100%;
   height: 50px;
 }
 
@@ -43,3 +43,20 @@ div a {
 }
 
 /*Final estilos navbar*/
+
+/*Sección "Nuestros productos"*/
+
+.tabla{
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+td{
+  width: 160px;
+  height: 100px;
+}
+
+
+
+/*Final Sección "Nuestros productos"*/
