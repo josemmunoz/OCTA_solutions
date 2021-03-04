@@ -44,3 +44,22 @@ div a {
 
 /*Final estilos navbar*/
 
+/*Sección "Nuestros productos"*/
+
+.tabla{
+  padding-top: 30px;
+  text-align: center;
+}
+
+td{
+  width: 160px;
+  height: 100px;
+}
+
+p{
+  font-weight: bold;
+}
+
+
+
+/*Final Sección "Nuestros productos"*/
