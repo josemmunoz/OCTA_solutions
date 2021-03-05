@@ -1,4 +1,22 @@
-/*Inicio estilos generales */
+.primdiv{
+background-color: 	#939393;
+height: 350px;
+align-items: auto;
+
+}
+
+.secdiv{
+background-color:  #5A5A5A;
+height: 350px;
+align-items: auto;
+}
+
+h1{
+	color: white;
+	align-self: center
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
 body {
   margin: 0px;
@@ -14,16 +32,16 @@ body {
 
 nav {
   background-color:rgb(156, 156, 156);
-  width: 110%;
+  width: 100%;
   height: 50px;
 }
 
 li {
   float: left;
-  width: 11%;
+  width: 13%;
   text-align: center;
   list-style: none;
-  display: block;
+  margin-top: 3px;
 }
 
 div a {
@@ -40,29 +58,7 @@ div a {
 .logo-nav {
   width: 30px;
   height: 30px;
-  padding-left: 7rem;
-  padding-top: 0.5rem;
-}
-
-div img {
-  width: 30px;
-  height: 30px;
-  margin-top: -3%;
-  margin-left: -80px;
 }
 
 /*Final estilos navbar*/
 
-/*Sección "Nuestros productos"*/
-
-.comprar {
-  padding: 13px;
-  padding-left: 20px;
-  padding-right: 15px;
-  background-color: #808080;
-  color:#fff;
-}
-
-
-
-/*Final Sección "Nuestros productos"*/
