@@ -8,6 +8,28 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*FUENTES*/
+
+@font-face{
+  font-family: "military";
+  src:url(../fonts/military.ttf);
+}
+@font-face{
+  font-family: "montserrat";
+  src:url(../fonts/montserrat-regular.otf);
+}
+@font-face{
+  font-family: "opensans-regular";
+  src: url(../fonts/Opensans-Regular.ttf);
+}
+@font-face{
+  font-family: "opensans-semibold";
+  src:url(../fonts/OpenSans-Semibold.ttf);
+}
+/*//FUENTES*/
+
+
+
 /*Final estilos generales*/
 
 /*Inicio estilos navbar*/
@@ -50,19 +72,45 @@ div img {
   margin-top: -3%;
   margin-left: -80px;
 }
+/*Final estilos navbar*/
 
 /*CABECERA*/
 
 .cabecera {
   width: 100%;
   height: 800px;
-  background-image: url(../img/index/informatica.jpg);
+  background-image: url(../img/informatica.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  opacity: 90%;
 }
 
+.texto-cabecera{
+  text-align: right;
+  padding-top: 80px;
+  padding-left: 800px;
+  width: auto;
+  font-size: 40px;
+  position: absolute;
+  color:#d7d0b7;
+  font-family: military;
+}
+.texto-subcabecera{
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 600px;
+  width: auto;
+  font-size: 40px;
+  position: absolute;
+  color:#d7d0b7;
+  font-family: opensans-regular;      
+}
+/*//CABECERA*/
 
 
 
-/*Final estilos navbar*/
 
 /*Sección "Nuestros productos"*/ precios-->
 
