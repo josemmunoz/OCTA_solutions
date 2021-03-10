@@ -1,29 +1,59 @@
 .primdiv{
-background-color: 	#939393;
+background-color: #000000;
 height: 350px;
-align-items: auto;
+text-align: left;
+padding-left: 100px;
+padding-top: 80px;
+font-family:'Segoe UI';
+color: white;
+
+}
+
+h1 .primdiv{
+  text-align: center;
+  color: white;
 
 }
 
 .secdiv{
 background-color:  #5A5A5A;
 height: 350px;
-align-items: auto;
+align-items: center;
+font-family:'Segoe UI';
+color: white;
+padding-left: 100px;
 }
 
 h1{
-	color: white;
-	align-self: center
-  margin-top: 100px;
+	align-self: center;
+  padding-top: 100px;
   margin-bottom: 100px;
+}
+
+.clap{
+font-size:27px;
+color: black;
+font-family:'Segoe UI';
+font-style: bold;
+padding-bottom: 30px;
+background-color: #D2D2D2;
+
+
+}
+
+h1.clap{
+  color: black;
+}
+
+#dinjp {
+padding-top: 140px;
 }
 
 body {
   margin: 0px;
   font-size: 15px;
   color: #000000;
-  background-color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #D2D2D2;
 }
 
 /*Final estilos generales*/
@@ -48,6 +78,7 @@ div a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
+  font-family:'Segoe UI';
 }
 
 .logo {
