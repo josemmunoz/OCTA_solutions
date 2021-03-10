@@ -14,9 +14,13 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
-
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 #footer {
 	clear: both;
 	background: #222224 url(../img/bg_footer.png);
@@ -27,7 +31,7 @@ time, mark, audio, video {
     display: block;
 }
 
-#footer, #h3footerindex {
+#footer h3 {
 	color: #fff;
 	font-family: "Novecentowide";
 	font-size: 14px;
@@ -36,7 +40,7 @@ time, mark, audio, video {
 	padding-bottom: 10px;
 }
 
-#footer, #lifooterindex:before {
+#footer li:before {
 	content: "- ";
 }
 
@@ -93,14 +97,14 @@ time, mark, audio, video {
 	margin-bottom: 8px;
 }
 
-#footer, #formfooter {
+#footer form {
 	height: 52px;
 	margin: 22px 0;
 	position: relative;
 	background-color: #fff;
 }
 
-#footer #formfooter #ok {
+#footer form button {
 	width: 44px;
 	height: 44px;
 	position: absolute;
@@ -110,11 +114,11 @@ time, mark, audio, video {
 	background: #b8bcbe url(../img/ico_plus.png) no-repeat 50% 50%;
 }
 
-#footer #formfooter button:hover{
+#footer form button:hover{
 	opacity: 0.9;
 }
 
-#footer #formfooter input {
+#footer form input {
 	width: 100%;
 	border: 0;
 	color: #656567;

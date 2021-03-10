@@ -5,30 +5,8 @@ body {
   font-size: 15px;
   color: #000000;
   background-color: #fff;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/*FUENTES*/
-
-@font-face{
-  font-family: "military";
-  src:url(../fonts/military.ttf);
-}
-@font-face{
-  font-family: "montserrat";
-  src:url(../fonts/montserrat-regular.otf);
-}
-@font-face{
-  font-family: "opensans-regular";
-  src: url(../fonts/Opensans-Regular.ttf);
-}
-@font-face{
-  font-family: "opensans-semibold";
-  src:url(../fonts/OpenSans-Semibold.ttf);
-}
-/*FUENTES*/
-
-
 
 /*Final estilos generales*/
 
@@ -40,7 +18,7 @@ nav {
   height: 50px;
 }
 
-#li-navbar{
+li {
   float: left;
   width: 11%;
   text-align: center;
@@ -48,7 +26,7 @@ nav {
   display: block;
 }
 
-#a-nav {
+div a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
@@ -66,220 +44,14 @@ nav {
   padding-top: 0.5rem;
 }
 
-#img-nav {
+div img {
   width: 30px;
   height: 30px;
   margin-top: -3%;
   margin-left: -80px;
-  padding-left: 7rem;
-  padding-top: 0.5rem;
 }
+
 /*Final estilos navbar*/
-
-/*inicio stile footer*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-.footer {
-	clear: both;
-	background: #222224 url(../img/bg_footer.png);
-	padding: 27px 0 0;
-	color: #a5a5aa;
-	font-size: 14px;
-	line-height: 30px;
-  display: block;
-}
-
-.footer, #h3footerindex {
-	color: #fff;
-	font-family: "Novecentowide";
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 500;
-	padding-bottom: 10px;
-}
-
-.footer, #lifooterindex:before {
-	content: "- ";
-}
-
-.footer .ico {
-	display: inline-block;
-	background: url(../img/ico_footer.png);
-	width: 19px;
-	height: 19px;
-	margin: -5px 10px -5px 0;
-}
-
-.footer .ico.ico-tw {
-	background-position: 0 -19px;
-}
-
-.footer .ico.ico-gp {
-	background-position: 0 -38px;
-}
-
-.footer .ico.ico-pi {
-	background-position: 0 -57px;
-}
-
-.footer .ico.ico-em {
-	background-position: 0 -76px;
-	margin: -7px 7px -7px 0;
-}
-
-.footer .ico.ico-ph {
-	background-position: 0 -95px;
-	margin: -5px 10px -5px -3px;
-}
-
-.footer .social li {
-	line-height: 32px;
-	padding-bottom: 6px;
-}
-
-.footer .social li:before {
-	display: none;
-}
-
-.footer .contact p {
-	line-height: 24px;
-	font-size: 14px;
-	padding: 2px 0 0;
-	margin-bottom: 8px;
-}
-
-.footer .newsletter p {
-	line-height: 24px;
-	font-size: 14px;
-	padding: 2px 0 0;
-	margin-bottom: 8px;
-}
-
-.footer .formfooter {
-	height: 52px;
-	margin: 22px 0;
-	position: relative;
-	background-color: #fff;
-}
-
-.footer .formfooter #ok {
-	width: 44px;
-	height: 44px;
-	position: absolute;
-	top: 4px;
-	right: 4px;
-	border: 0;
-	background: #b8bcbe url(../img/ico_plus.png) no-repeat 50% 50%;
-}
-
-.footer #formfooter button:hover{
-	opacity: 0.9;
-}
-
-.footer #formfooter input {
-	width: 100%;
-	border: 0;
-	color: #656567;
-	font-size: 14px;
-	padding: 15px 75px 15px 25px;
-	line-height: normal;
-	height: 52px;
-	background: #fff;
-}
-
-::-webkit-input-placeholder {
-	color: #656567;
-}
-
-::-moz-placeholder {
-	color: #656567;
-	opacity: 1;
-}
-
-.footer #col {
-	float: left;
-	width: 25.7%;
-	padding-bottom: 37px;
-}
-
-.footer .col.media {
-	width: 17%;
-}
-
-.footer .col.contact {
-	width: 25.7%;
-}
-
-.footer .col.newsletter {
-	width: 31.6%;
-}
-
-.footer a {
-	color: #a5a5aa;
-}
-
-footer .copy {
-	color: #717176;
-	font-size: 14px;
-	padding: 28px 0;
-	clear: both;
-	border-top: 1px solid #333336;
-}
-/*fin estilos nav*/
-/*CABECERA*/
-
-.cabecera {
-  width: 100%;
-  height: 800px;
-  background-image: url(../img/informatica.jpg);
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 110%;
-  opacity: 90%;
-}
-
-.texto-cabecera, #h1-index{
-  text-align: right;
-  padding-top: 80px;
-  padding-left: 800px;
-  width: auto;
-  font-size: 40px;
-  position: absolute;
-  color:#d7d0b7;
-  font-family: military;
-}
-.texto-subcabecera, #h5-index{
-  text-align: right;
-  padding-top: 10px;
-  padding-left: 600px;
-  width: auto;
-  font-size: 40px;
-  position: absolute;
-  color:#d7d0b7;
-  font-family: opensans-regular;      
-}
-/*//CABECERA*/
-
-
-
 
 /*Sección "Nuestros productos"*/ precios-->
 
@@ -295,4 +67,3 @@ footer .copy {
 
 
 /*Final Sección "Nuestros productos"*/
-
