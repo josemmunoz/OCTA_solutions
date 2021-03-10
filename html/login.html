@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../js/login.js"></script>
     <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
@@ -12,26 +13,32 @@
         <div class="nav-buttons">
           <button id="loginBtn" class="active">Login</button>
           <button id="registerBtn">Register</button>
-          <a href="../index.html"><img src="../icon/logo_white.ico" class="logo"/></a>
+          <a href="../index.html"
+            ><img src="../icon/logo_white.ico" class="logo"
+          /></a>
         </div>
 
         <div class="form-group">
-          <form action="" id="loginform">
-            <label for="username">nombre</label>
-            <input type="text" id="username" />
-            <label for="password">contraseña</label>
-            <input type="password" id="password" />
+          <form
+            action="../index.html"
+            id="loginform"
+            onsubmit="return validar()"
+          >
+            <label for="mail">mail</label>
+            <input type="text" id="mail" />
+            <label for="passwd">contraseña</label>
+            <input type="password" id="passwd" />
             <input type="submit" value="enviar" class="submit" />
           </form>
-          <form action="" id="registerform">
+          <form action="login.html" id="registerform" onsubmit="return registrar()">
             <label for="fullname">Nombre Completo</label>
-            <input type="text" id="fullname" />
+            <input type="text" id="ruser" />
             <label for="email">email</label>
-            <input type="text" id="email" />
+            <input type="text" id="rmail" />
             <label for="passwword">contraseña</label>
-            <input type="password" id="password" />
+            <input type="password" id="rpasswd" />
             <label for="confirmpassword">confirmar contraseña</label>
-            <input type="password" id="confirmpassword" />
+            <input type="password" id="confirmpasswd" />
             <input type="submit" value="enviar" class="submit" />
           </form>
         </div>
