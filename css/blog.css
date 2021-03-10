@@ -1,0 +1,97 @@
+* {
+    background-color: rgb(44, 44, 44);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.galeriaOverlayBlog {
+    font-family:Verdana;
+}
+
+table{
+    margin-left: 200px;
+    border-collapse: separate;
+    border-spacing: 0px 60px;
+    color: white;
+}
+p{
+    margin-left: 100px;
+    margin-right: 270px;
+}
+.contenedorGaleriaOverlayBlog {
+    margin-left: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: justify;
+    float: left;
+}
+
+.contenedorGaleriaOverlayBlog .imagenGaleriaOverlay{
+    width: 500px;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    
+}
+
+.imagenGaleriaOverlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.overlayBlog{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(2, 0, 95, 0.815);
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+.overlayBlog h2{
+    color: rgb(255, 255, 255);
+    background: rgba(207, 51, 255, 0);
+    font-weight: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagenGaleriaOverlay:hover .overlayBlog{
+    height: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedorGaleriaOverlayBlog{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedorGaleriaOverlayBlog{
+        width: 90%;
+    }
+    .contenedorGaleriaOverlayBlog .imagenGaleriaOverlay{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size: 22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+}
+

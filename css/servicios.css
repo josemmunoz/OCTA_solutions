@@ -6,6 +6,10 @@
     width: 70%;
     height: 200%;
     float: left;
+    background: grey;
+    height: 900px;
+    width: 1250px;
+    border-radius: 400px;
 }
 .servicio-texto h3{
     text-align: center;
@@ -27,8 +31,7 @@
     font-family: military;
     overflow: ;
     max-height: 500px;
-    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
-    color: #666;
+    text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
 }
 .servicio-cont{
     width: 100%;
@@ -82,8 +85,7 @@
     font-family: military;
     overflow: ;
     max-height: 500px;
-    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
-    color: #666;
+    text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
 }
 .seguridad-cont{
     width: 100%;
@@ -135,8 +137,7 @@
     font-family: military;
     overflow: auto;
     max-height: 500px;
-    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
-    color: #666;
+    text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
 }
 .reciclaje-cont{
     width: 100%;
