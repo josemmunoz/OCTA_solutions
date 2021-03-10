@@ -3,8 +3,8 @@
 
 
 .servicio-texto{
-    width: 49.5%;
-    height: 100%;
+    width: 70%;
+    height: 200%;
     float: left;
 }
 .servicio-texto h3{
@@ -48,7 +48,7 @@
     background-position: 73%;
 }
 .src{
-    width: 25%;
+    width: 20%;
     height: 80%;
     float: left;
 }
@@ -58,7 +58,7 @@
 /*SEGURIDAD*/
 
 .seguridad-texto{
-    width: 49.5%;
+    width: 70%;
     height: 100%;
     float: left;
 }
@@ -103,7 +103,7 @@
 
 }
 .srco{
-    width: 26%;
+    width: 20%;
     height: 80%;
     float: left;
 }
@@ -111,7 +111,7 @@
 /*RECICLAJE*/
 
 .reciclaje-texto{
-    width: 49.5%;
+    width: 65%;
     height: 100%;
     float: left;
 }
@@ -155,7 +155,7 @@
     background-position: 73%;
 }
 .srcoo{
-    width: 30%;
+    width: 20%;
     height: 80%;
     float: left;
 }
