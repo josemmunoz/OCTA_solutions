@@ -40,7 +40,7 @@ nav {
   height: 50px;
 }
 
-li {
+#li-navbar{
   float: left;
   width: 11%;
   text-align: center;
@@ -48,7 +48,7 @@ li {
   display: block;
 }
 
-div a {
+#a-nav {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
@@ -66,11 +66,13 @@ div a {
   padding-top: 0.5rem;
 }
 
-div img {
+#img-nav {
   width: 30px;
   height: 30px;
   margin-top: -3%;
   margin-left: -80px;
+  padding-left: 7rem;
+  padding-top: 0.5rem;
 }
 /*Final estilos navbar*/
 
