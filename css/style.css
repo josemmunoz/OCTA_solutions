@@ -51,6 +51,17 @@ div img {
   margin-left: -80px;
 }
 
+/*CABECERA*/
+
+.cabecera {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/index/informatica.jpg);
+}
+
+
+
+
 /*Final estilos navbar*/
 
 /*Sección "Nuestros productos"*/ precios-->
@@ -67,3 +78,4 @@ div img {
 
 
 /*Final Sección "Nuestros productos"*/
+
