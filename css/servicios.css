@@ -6,6 +6,10 @@
     width: 70%;
     height: 200%;
     float: left;
+    background: grey;
+    height: 900px;
+    width: 1250px;
+    border-radius: 400px;
 }
 .servicio-texto h3{
     text-align: center;
