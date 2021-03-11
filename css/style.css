@@ -1,4 +1,10 @@
 /*Inicio estilos generales */
+* {
+  box-sizing: border-box;
+}
+body{
+      padding: 1rem;
+}
 html,
 body,
 div,
