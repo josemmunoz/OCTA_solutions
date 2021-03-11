@@ -1,5 +1,5 @@
 /*** Reset styles ***/
-html,body, body * { 
+.loginregister-html,.body-login, * { 
     box-sizing: border-box; 
     font-family: 'Open Sans', sans-serif; 
     margin:0;
@@ -8,7 +8,7 @@ html,body, body * {
     background-color:inherit;
 
  }
- body {
+ .body-login {
     background-image: url(../img/Mojave\ Night-logon.png);
     background-size:  cover;
     background-position:center center;
