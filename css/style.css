@@ -216,11 +216,36 @@ body {
 
 /*FIN FOOTER STYLE*/
 
-/*Sección "Nuestros productos"*/ 
+/*CABECERA Index*/
 
-
-
-
-
-
-/*Final Sección "Nuestros productos"*/
+.cabecera {
+	width: 100%;
+	height: 800px;
+	background-image: url("../img/informatica.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 110%;
+	opacity: 90%;
+  }
+  
+  .texto-cabecera{
+	text-align: right;
+	padding-top: 80px;
+	padding-left: 800px;
+	width: auto;
+	font-size: 40px;
+	position: absolute;
+	color:#d7d0b7;
+  }
+  .texto-subcabecera{
+	text-align: right;
+	padding-top: 10px;
+	padding-left: 600px;
+	width: auto;
+	font-size: 40px;
+	position: absolute;
+	color:#d7d0b7;
+     
+  }
+  /*CABECERA Index*/
