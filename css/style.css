@@ -1,22 +1,88 @@
 /*Inicio estilos generales */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, .footer_form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+.footer_form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 body {
   margin: 0px;
@@ -31,7 +97,7 @@ body {
 /*Inicio estilos navbar*/
 
 .navbar {
-  background-color:rgb(156, 156, 156);
+  background-color: rgb(156, 156, 156);
   width: 100%;
   height: 50px;
 }
@@ -58,194 +124,439 @@ body {
 .logo-nav {
   width: 30px;
   height: 30px;
-
 }
-
 
 /*Final estilos navbar*/
 
 /*INICIO FOOTER STYLE*/
 
-
 #footer {
-	clear: both;
-	background: #222224 url(../img/bg_footer.png);
-	padding: 27px 0 0;
-	color: #a5a5aa;
-	font-size: 14px;
-	line-height: 30px;
-    display: block;
+  clear: both;
+  background: #222224 url(../img/bg_footer.png);
+  padding: 27px 0 0;
+  color: #a5a5aa;
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
 }
 
 #footer .h3_table_footer {
-	color: #fff;
-	font-family: "Novecentowide";
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 500;
-	padding-bottom: 10px;
+  color: #fff;
+  font-family: "Novecentowide";
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 10px;
 }
 
 #footer .li_footer:before {
-	content: "- ";
+  content: "- ";
 }
 
 #footer .ico {
-	display: inline-block;
-	background: url(../img/ico_footer.png);
-	width: 19px;
-	height: 19px;
-	margin: -5px 10px -5px 0;
+  display: inline-block;
+  background: url(../img/ico_footer.png);
+  width: 19px;
+  height: 19px;
+  margin: -5px 10px -5px 0;
 }
 
 #footer .ico.ico-tw {
-	background-position: 0 -19px;
+  background-position: 0 -19px;
 }
 
 #footer .ico.ico-gp {
-	background-position: 0 -38px;
+  background-position: 0 -38px;
 }
 
 #footer .ico.ico-pi {
-	background-position: 0 -57px;
+  background-position: 0 -57px;
 }
 
 #footer .ico.ico-em {
-	background-position: 0 -76px;
-	margin: -7px 7px -7px 0;
+  background-position: 0 -76px;
+  margin: -7px 7px -7px 0;
 }
 
 #footer .ico.ico-ph {
-	background-position: 0 -95px;
-	margin: -5px 10px -5px -3px;
+  background-position: 0 -95px;
+  margin: -5px 10px -5px -3px;
 }
 
 #footer .social .li_footer {
-	line-height: 32px;
-	padding-bottom: 6px;
+  line-height: 32px;
+  padding-bottom: 6px;
 }
 
 #footer .social .li_footer:before {
-	display: none;
+  display: none;
 }
 
 #footer .contact #p_footer {
-	line-height: 24px;
-	font-size: 14px;
-	padding: 2px 0 0;
-	margin-bottom: 8px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 2px 0 0;
+  margin-bottom: 8px;
 }
 
 #footer .newsletter #p_footer {
-	line-height: 24px;
-	font-size: 14px;
-	padding: 2px 0 0;
-	margin-bottom: 8px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 2px 0 0;
+  margin-bottom: 8px;
 }
 
 #footer #footer_form {
-	height: 52px;
-	margin: 22px 0;
-	position: relative;
-	background-color: #fff;
+  height: 52px;
+  margin: 22px 0;
+  position: relative;
+  background-color: #fff;
 }
 
 #footer #footer_form #ok {
-	width: 44px;
-	height: 44px;
-	position: absolute;
-	top: 4px;
-	right: 4px;
-	border: 0;
-	background: #b8bcbe url(../img/ico_plus.png) no-repeat 50% 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border: 0;
+  background: #b8bcbe url(../img/ico_plus.png) no-repeat 50% 50%;
 }
 
-#footer #footer_form button:hover{
-	opacity: 0.9;
+#footer #footer_form button:hover {
+  opacity: 0.9;
 }
 
 #footer #footer_form input {
-	width: 100%;
-	border: 0;
-	color: #656567;
-	font-size: 14px;
-	padding: 15px 75px 15px 25px;
-	line-height: normal;
-	height: 52px;
-	background: #fff;
+  width: 100%;
+  border: 0;
+  color: #656567;
+  font-size: 14px;
+  padding: 15px 75px 15px 25px;
+  line-height: normal;
+  height: 52px;
+  background: #fff;
 }
 
 ::-webkit-input-placeholder {
-	color: #656567;
+  color: #656567;
 }
 
 ::-moz-placeholder {
-	color: #656567;
-	opacity: 1;
+  color: #656567;
+  opacity: 1;
 }
 
 #footer .col {
-	float: left;
-	width: 25.7%;
-	padding-bottom: 37px;
+  float: left;
+  width: 25.7%;
+  padding-bottom: 37px;
 }
 
 #footer .col.media {
-	width: 17%;
+  width: 17%;
 }
 
 #footer .col.contact {
-	width: 25.7%;
+  width: 25.7%;
 }
 
 #footer .col.newsletter {
-	width: 31.6%;
+  width: 31.6%;
 }
 
 #footer .a_footer {
-	color: #a5a5aa;
+  color: #a5a5aa;
 }
 
 #footer .copy {
-	color: #717176;
-	font-size: 14px;
-	padding: 28px 0;
-	clear: both;
-	border-top: 1px solid #333336;
+  color: #717176;
+  font-size: 14px;
+  padding: 28px 0;
+  clear: both;
+  border-top: 1px solid #333336;
 }
 
 /*FIN FOOTER STYLE*/
 
-/*CABECERA Index*/
+/* Inicio CABECERA Index*/
 
 .cabecera {
-	width: 100%;
-	height: 800px;
-	background-image: url("../img/informatica.jpg");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 110%;
-	opacity: 90%;
-  }
-  
-  .texto-cabecera{
-	text-align: right;
-	padding-top: 80px;
-	padding-left: 800px;
-	width: auto;
-	font-size: 40px;
-	position: absolute;
-	color:#d7d0b7;
-  }
-  .texto-subcabecera{
-	text-align: right;
-	padding-top: 10px;
-	padding-left: 600px;
-	width: auto;
-	font-size: 40px;
-	position: absolute;
-	color:#d7d0b7;
-     
-  }
-  /*CABECERA Index*/
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/informatica.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  opacity: 90%;
+}
+
+.texto-cabecera {
+  text-align: right;
+  padding-top: 80px;
+  padding-left: 800px;
+  width: auto;
+  font-size: 40px;
+  position: absolute;
+  color: #d7d0b7;
+}
+.texto-subcabecera {
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 600px;
+  width: auto;
+  font-size: 40px;
+  position: absolute;
+  color: #d7d0b7;
+}
+/* Fin CABECERA Index*/
+
+/* Inicio Quienes Somos Style*/
+
+
+
+/* Fin Quienes Somos Style*/
+
+/* Inicio Proyectos Style*/
+
+.diva {
+  background-color: lightgrey;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  padding-top: 80px;
+}
+
+.bigt {
+  color: #419e3b;
+  font-style: bold;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.divb {
+  background-color: #e8e8e8;
+  text-align: left;
+  width: 100%;
+  height: 450px;
+  padding-top: 80px;
+  padding-left: 320px;
+  font-style: bold;
+  font-size: 32px;
+  color: #419e3b;
+}
+
+.medt {
+  color: #419e3b;
+  font-size: 45px;
+  padding-left: 500px;
+  padding-right: 300px;
+}
+
+.medt2 {
+  color: #419e3b;
+  font-size: 45px;
+  padding-left: 310px;
+  text-align: left;
+}
+
+.st {
+  color: #419e3b;
+  font-size: 15px;
+  padding-right: 200px;
+  text-align: left;
+}
+
+.spt {
+  color: #419e3b;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 310px;
+}
+
+.imgt {
+  width: 50px;
+  height: 50px;
+  padding-left: 80px;
+}
+
+.ic {
+  text-align: left;
+  background-size: 350px 350px;
+}
+
+.tablalog {
+  align-self: left;
+  padding-left: 310px;
+}
+
+.divc {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 450px;
+}
+
+/* Fin Proyecto Style*/
+
+/* Inicio Servicios Style */
+
+/*SERVICIO TÉCNICO*/
+
+.servicio-texto {
+  width: 70%;
+  height: 200%;
+  float: left;
+  background: grey;
+  height: 900px;
+  width: 1250px;
+  border-radius: 400px;
+}
+.servicio-texto h3 {
+  text-align: center;
+  color: black;
+  font-family: military;
+  font-size: 50px;
+  padding-top: 80px;
+  text-shadow: 1px 1px white, -1px -1px #333;
+  background-color: #ddd;
+  color: black;
+  padding: 10px;
+}
+.servicio-texto p {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-right: 30px;
+  font-family: military;
+
+  max-height: 500px;
+  text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+}
+.servicio-cont {
+  width: 100%;
+  height: 800%;
+  display: block;
+}
+.servicio-imagen-cont {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.servicio-imagen {
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+  height: 90%;
+  background-size: auto;
+  background-position: 73%;
+}
+.src {
+  width: 20%;
+  height: 80%;
+  float: left;
+}
+
+/*SEGURIDAD*/
+
+.seguridad-texto {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+.seguridad-texto h3 {
+  text-align: center;
+  color: black;
+  font-family: military;
+  font-size: 50px;
+  padding-top: 80px;
+  text-shadow: 1px 1px white, -1px -1px #333;
+  background-color: #ddd;
+  color: black;
+  padding: 15px;
+}
+.seguridad-texto p {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-right: 30px;
+  font-family: military;
+  max-height: 500px;
+  text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+}
+.seguridad-cont {
+  width: 100%;
+  height: 800%;
+  display: block;
+}
+.seguridad-imagen-cont {
+  width: 50%;
+  height: 100%;
+}
+.seguridad-imagen {
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+  height: 90%;
+  background-size: auto;
+  background-position: 73%;
+}
+.srco {
+  width: 20%;
+  height: 80%;
+  float: left;
+}
+
+/*RECICLAJE*/
+
+.reciclaje-texto {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+.reciclaje-texto h3 {
+  text-align: center;
+  color: black;
+  font-family: military;
+  font-size: 50px;
+  padding-top: 80px;
+  text-shadow: 1px 1px white, -1px -1px #333;
+  background-color: #ddd;
+  color: black;
+  padding: 10px;
+}
+.reciclaje-texto p {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-right: 30px;
+  font-family: military;
+  overflow: auto;
+  max-height: 500px;
+  text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+}
+.reciclaje-cont {
+  width: 100%;
+  height: 800%;
+  display: block;
+}
+.reciclaje-imagen-cont {
+  width: 50%;
+  height: 100%;
+}
+.reciclaje-imagen {
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+  height: 90%;
+  background-size: auto;
+  background-position: 73%;
+}
+.srcoo {
+  width: 20%;
+  height: 80%;
+  float: left;
+}
+/* Fin Servicios Style*/
+

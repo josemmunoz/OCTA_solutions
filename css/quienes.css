@@ -1,15 +1,15 @@
 .primdiv{
 background-color: #000000;
 height: 350px;
+width: 100%;
 text-align: left;
 padding-left: 100px;
 padding-top: 80px;
-font-family:'Segoe UI';
 color: white;
 
 }
 
-h1 .primdiv{
+#h1 .primdiv{
   text-align: center;
   color: white;
 
@@ -19,12 +19,12 @@ h1 .primdiv{
 background-color:  #5A5A5A;
 height: 350px;
 align-items: center;
-font-family:'Segoe UI';
+
 color: white;
 padding-left: 100px;
 }
 
-h1{
+#h1{
 	align-self: center;
   padding-top: 100px;
   margin-bottom: 100px;
@@ -32,8 +32,8 @@ h1{
 
 .clap{
 font-size:27px;
-color: black;
-font-family:'Segoe UI';
+color: #D2D2D2;
+
 font-style: bold;
 padding-bottom: 30px;
 background-color: #D2D2D2;
@@ -57,39 +57,4 @@ body {
 }
 
 /*Final estilos generales*/
-
-/*Inicio estilos navbar*/
-
-nav {
-  background-color:rgb(156, 156, 156);
-  width: 100%;
-  height: 50px;
-}
-
-li {
-  float: left;
-  width: 13%;
-  text-align: center;
-  list-style: none;
-  margin-top: 3px;
-}
-
-div a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-family:'Segoe UI';
-}
-
-.logo {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-.logo-nav {
-  width: 30px;
-  height: 30px;
-}
-
-/*Final estilos navbar*/
 
