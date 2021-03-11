@@ -556,3 +556,114 @@ body {
 }
 /* Fin Servicios Style*/
 
+/* Incio STYLE Blog*/
+.h1-blog{
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+.galeriaOverlayBlog {
+  font-family:Verdana;
+}
+
+.contenedorGaleriaOverlayBlog {
+  
+  
+  margin-left: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  
+}
+
+.contenedorGaleriaOverlayBlog .imagenGaleriaOverlay{
+  width: 500px;
+  position: relative;
+  height: 250px;
+  margin-bottom: 5px;
+  
+}
+
+.td-blog{
+  background-color: rgb(204, 204, 204);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: rgb(0, 0, 0);
+  vertical-align: middle;
+  
+}
+.fecha-blog{
+  margin-left: 20px;
+  color: rgb(0, 46, 121);
+}
+.p-blog{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 25px;
+  
+}
+.p-enlace-blog{
+  margin-left: 20px;
+  text-decoration: none;
+}
+.imagenGaleriaOverlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+
+}
+
+.overlayBlog{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(83, 83, 83, 0.65);
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s ease;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+.overlayBlog h2{
+  color: rgb(255, 255, 255);
+  background: rgba(207, 51, 255, 0);
+  font-weight: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.imagenGaleriaOverlay:hover .overlayBlog{
+  height: 100%;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+  .contenedorGaleriaOverlayBlog{
+      width: 95%;
+  }
+}
+
+@media screen and (max-width:700px){
+  .contenedorGaleriaOverlayBlog{
+      width: 90%;
+  }
+  .contenedorGaleriaOverlayBlog .imagenGaleriaOverlay{
+      width: 48%;
+  }
+}
+
+@media screen and (max-width:450px){
+  .contenedorGaleriaOverlayBlog{
+      width: 98%;
+  }
+}
+/* Fin STYLE Blog*/
