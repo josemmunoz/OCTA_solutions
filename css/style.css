@@ -408,12 +408,8 @@ body {
   width: 70%;
   height: 200%;
   float: left;
-  background: grey;
-  height: 900px;
-  width: 1250px;
-  border-radius: 400px;
 }
-.servicio-texto h3 {
+.servicio-texto #servicio-h3 {
   text-align: center;
   color: black;
   font-family: military;
@@ -424,7 +420,7 @@ body {
   color: black;
   padding: 10px;
 }
-.servicio-texto p {
+.servicio-texto #servicio-p {
   text-align: center;
   color: black;
   font-size: 30px;
@@ -465,7 +461,7 @@ body {
   height: 100%;
   float: left;
 }
-.seguridad-texto h3 {
+.seguridad-texto #seguridad-h3 {
   text-align: center;
   color: black;
   font-family: military;
@@ -476,7 +472,7 @@ body {
   color: black;
   padding: 15px;
 }
-.seguridad-texto p {
+.seguridad-texto #seguridad-p {
   text-align: center;
   color: black;
   font-size: 30px;
@@ -515,7 +511,7 @@ body {
   height: 100%;
   float: left;
 }
-.reciclaje-texto h3 {
+.reciclaje-texto #reciclaje-h3 {
   text-align: center;
   color: black;
   font-family: military;
@@ -526,7 +522,7 @@ body {
   color: black;
   padding: 10px;
 }
-.reciclaje-texto p {
+.reciclaje-texto #reciclaje-p {
   text-align: center;
   color: black;
   font-size: 30px;
