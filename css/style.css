@@ -101,12 +101,10 @@ nav .menu-btn i {
 
 /*nav Style Fin JoseMMunoz*/
 /* index Style Inicio*/
-.body_index {
-  background-image: url("../img/index/informatica.jpg");
-}
+
 #content_index {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -160,23 +158,42 @@ nav .menu-btn i {
 /*Quienes Somos Style fin*/
 /* Inicio Proyectos Style*/
 
-.diva {
+.imgt{
+  width: 60px;
+  height: 60px;
+  margin-top: 70px;
+}
+
+.ic{
+  text-align: left;
+  padding-bottom: -30px;
+}
+.diva{
   background-color: lightgrey;
   text-align: center;
   width: 100%;
   height: 350px;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
-.bigt {
-  color: #419e3b;
+.divd{
+  background-color: lightgrey;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  padding-top: 30px;
+}
+
+.bigt{
+  color: #303030;
   font-style: bold;
   font-size: 50px;
   margin-top: 100px;
+
 }
 
-.divb {
-  background-color: #e8e8e8;
+.divb{
+  background-color: #E8E8E8;
   text-align: left;
   width: 100%;
   height: 450px;
@@ -184,59 +201,52 @@ nav .menu-btn i {
   padding-left: 320px;
   font-style: bold;
   font-size: 32px;
-  color: #419e3b;
+  color: #303030;
+
 }
 
-.medt {
-  color: #419e3b;
+.medt{
+  color: #303030;
   font-size: 45px;
   padding-left: 500px;
   padding-right: 300px;
 }
 
-.medt2 {
-  color: #419e3b;
+.medt2{
+  color: #303030;
   font-size: 45px;
   padding-left: 310px;
   text-align: left;
 }
 
-.st {
-  color: #419e3b;
+.st{
+  color: #303030;
   font-size: 15px;
   padding-right: 200px;
   text-align: left;
 }
 
-.spt {
-  color: #419e3b;
+.spt{
+  color: #303030;
   font-size: 15px;
   text-align: left;
   padding-left: 310px;
 }
 
-.imgt {
-  width: 50px;
-  height: 50px;
-  padding-left: 80px;
-}
 
-.ic {
-  text-align: left;
-  background-size: 350px 350px;
-}
-
-.tablalog {
+.tablalog{
   align-self: left;
   padding-left: 310px;
+
 }
 
-.divc {
+.divc{
   background-color: white;
   text-align: center;
   width: 100%;
   height: 450px;
 }
+
 
 /* Fin Proyecto Style*/
 
@@ -404,11 +414,12 @@ nav .menu-btn i {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 25%;
 }
 
 .container .card {
   position: relative;
-  margin-top: 110px;
+  margin-top: 50px;
   margin-bottom: -170px;
 }
 
@@ -611,3 +622,137 @@ button:focus {
 /*Fin Style Contacto*/
 
 /*Inicio Style Login*/
+#slider-wrapper {
+  width: 940px;
+  height: 470px;
+  margin: 50px auto;
+  position: relative;
+  margin-bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-top: 20%;
+}
+
+#s1 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -36px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s2 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -12px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s3 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 12px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s4 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 36px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s1:hover,
+#s2:hover,
+#s3:hover,
+#s4:hover {
+  opacity: .50;
+}
+
+.inner-wrapper {
+  width: 940px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.control {
+  display: none;
+}
+
+#Slide1:checked ~ .overflow-wrapper {
+  margin-left: 0%;
+}
+
+#Slide2:checked ~ .overflow-wrapper {
+  margin-left: -100%;
+}
+
+#Slide3:checked ~ .overflow-wrapper {
+  margin-left: -200%;
+}
+
+#Slide4:checked ~ .overflow-wrapper {
+  margin-left: -300%;
+}
+
+#Slide1:checked + #s1 {
+  opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+  opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+  opacity: 1;
+}
+
+#Slide4:checked + #s4 {
+  opacity: 1;
+}
+
+.overflow-wrapper {
+  width: 400%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide img {
+  width: 25%;
+  float: left;
+}
